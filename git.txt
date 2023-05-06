@@ -1,0 +1,14 @@
+git主要命令
+git commit   提交记录
+git branch  <branch name>  分支      使用分支其实就相当于在说：“我想基于这个提交以及它所有的父提交进行新的工作。”
+git switch/checkout 切换到所选的分支
+git branch & git switch == git checkout -b <name>
+git merge <name>   合并分支
+git rebase<name> 合并分支 将所在的branch合并到name分支下
+
+git特性(在提交树上面运动)
+head    绝对引用，指向（引用）所在位置记录
+^ 父记录 & ~<num> 前几个
+
+git reset 本地
+git  revert 远程
